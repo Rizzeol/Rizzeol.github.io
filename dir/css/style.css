@@ -137,7 +137,7 @@ canvas{
   width: 200px;
   transition: all 0.5s;
   cursor: pointer;
-  margin-top: -22px;
+  margin-top: 135px;
   float: right;
 
 }
@@ -258,6 +258,7 @@ html,button,input,select,textarea {
 	font-family:'Varela Round',sans-serif;
 }
 body {
+	margin-top: 100px;
 	margin:0;
 	font-family: 'Open Sans',sans-serif;
 }
@@ -280,6 +281,8 @@ h2 {
 	margin:0.83em 0;
 }
 h3 {
+	top: 40%;
+	margin-top: -300px;
 	font-size:1.17em;
 	margin:1em 0;
 }
@@ -625,15 +628,20 @@ table {
 	text-transform: uppercase;
 }
 .hero h1 span {
+	top:50px;
+	left: 16px;
+	margin-top: 100px;
 	color:#a1a9b0;
 	/* display:inline-block; */
 }
 .hero h3 {
-	font-size: 20px;
+	font-size: 35px;
+	top: 50px;
+	left: 16px;
 	margin:0;
 	padding:0;
 	opacity:0.5;
-	color: #E04343;
+	color: #e50000;
 	letter-spacing: 18px;
 	line-height: 50px;
 	text-transform: uppercase;
