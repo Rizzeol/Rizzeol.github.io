@@ -125,10 +125,10 @@ canvas{
 }
 
 
-.button {
+.cvbutton {
   display: inline-block;
   border-radius: 8px;
-  background-color: #ADFF2F;;
+  background-color: #008CBA;
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -136,10 +136,13 @@ canvas{
   padding: 20px;
   width: 200px;
   transition: all 0.5s;
-  cursor: pointer;
-  margin-top: 135px;
   float: right;
-
+  bottom: -150px;
+  position: relative;
+  right: 100px;
+  
+  
+  
 }
 
 .button span {
@@ -155,7 +158,7 @@ canvas{
   opacity: 0;
   top: 0;
   right: -20px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .button:hover span {
@@ -169,6 +172,13 @@ canvas{
 /* ==========================================================================
 	Global Styles
 ========================================================================== */
+
+.name {
+
+	position: relative;
+	bottom: 60px;
+	right: 100px;
+}
 a {
 	color: #E04343;
 	-webkit-transition:all 0.5s;
@@ -218,7 +228,7 @@ h6::after {
 
 cv{
 	
-	color: #8c8c8c;
+	color: #008CBA;
 	width:65px;
 	margin:20px auto;
 	text-decoration: none;
@@ -226,6 +236,7 @@ cv{
 	padding: 10px 15px;
 	border-radius: 8px;
 	line-height: 8em;
+	top:100px;
 }
 /* ==========================================================================HTML5 display definitions========================================================================== */
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary {
@@ -258,7 +269,6 @@ html,button,input,select,textarea {
 	font-family:'Varela Round',sans-serif;
 }
 body {
-	margin-top: 100px;
 	margin:0;
 	font-family: 'Open Sans',sans-serif;
 }
@@ -281,8 +291,6 @@ h2 {
 	margin:0.83em 0;
 }
 h3 {
-	top: 40%;
-	margin-top: -300px;
 	font-size:1.17em;
 	margin:1em 0;
 }
@@ -628,20 +636,15 @@ table {
 	text-transform: uppercase;
 }
 .hero h1 span {
-	top:50px;
-	left: 16px;
-	margin-top: 100px;
 	color:#a1a9b0;
 	/* display:inline-block; */
 }
 .hero h3 {
-	font-size: 35px;
-	top: 50px;
-	left: 16px;
+	font-size: 20px;
 	margin:0;
 	padding:0;
 	opacity:0.5;
-	color: #e50000;
+	color: #E04343;
 	letter-spacing: 18px;
 	line-height: 50px;
 	text-transform: uppercase;
@@ -780,9 +783,10 @@ h1.arrow span {
     color: #FFF;
 }
 /* ==========================================================================Services========================================================================== */
+/*
 .services {
-	margin-top:80px;
-	margin-bottom:40px;
+	margin-top:10px;
+	margin-bottom:5px;
 }
 .services .icon {
 	position:relative;
@@ -800,10 +804,12 @@ h1.arrow span {
 	transition:all .3s ease-out;
 	border: 1px solid #E04343;
 	color: #E04343;
+
 }
 .services .item:hover .icon {
 	background: #E04343;
 	border: 1px solid #E04343;
+	align-items: center;
 }
 .services .item [class*=fa] {
 	-webkit-transition:all .3s ease-out;
@@ -815,6 +821,13 @@ h1.arrow span {
 	-webkit-transition:all .3s ease-out;
 	transition:all .3s ease-out;
 	color:#fff;
+}
+p{
+	text-align: justify-all;
+}
+
+	
+	
 }
 .features-wrapper {
 	margin:70px 0 0;
@@ -834,6 +847,7 @@ i.respons {
 	border:1px solid #CCCCCC;
 	color: #CCCCCC;
 }
+*/
 /* ==========================================================================iPhone Section========================================================================== */
 .iphone {
 	width:50%;
